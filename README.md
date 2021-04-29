@@ -6,7 +6,7 @@ An Object is a thing with a name, which can also have any number of Flags and on
 ```
 "Object Name" flag1 flag2 512 {
 	"An Object inside a Body!" -100
-		"\"Another\" Object" {
+	"\"Another\" Object" {
 		"Don't read:" Never gonna give you up :)
 	}
 }
