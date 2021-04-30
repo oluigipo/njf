@@ -385,10 +385,10 @@ extern "C" {
 			}
 			
 			while (begin < end && njf__is_number(*begin)) {
-				++begin;
-				
 				result *= 10;
 				result += *begin - '0';
+				
+				++begin;
 			}
 			
 			flag->as.number = result * sign;
